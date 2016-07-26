@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>fetch</title>
+</head>
+
+<body>
+	<h1>fetch.polyfill = <span id="info"></span></h1>
+
+	<hr>fetch：
+	<button id="getHtml">get html</button>
+	<button id="getJson">get json</button>
+	<button id="postForm">post form</button>
+	<button id="postJson">post json</button>
+	<button id="uploadFile">upload file</button>
+
+	<hr>
+	<form name="form" method="get">form:
+		<label>code=<input type="text" name="code" value="code1"></label>
+		<label>name=<input type="text" name="name" value="abc中文1"></label>
+		<input type="submit" value="submit:get">
+	</form>
+
+	<hr>
+	<form name="form" method="post">form:
+		<label>code=<input type="text" name="code" value="code2"></label>
+		<label>name=<input type="text" name="name" value="abc中文2"></label>
+		<input type="submit" value="submit:post.no-enctype">
+	</form>
+
+	<hr>
+	<script src="node_modules/requirejs/require.js" data-main="main.js"></script>
+</body>
+</html>

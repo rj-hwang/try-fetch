@@ -1,0 +1,26 @@
+{
+  "name": "try-fetch",
+  "version": "1.0.0",
+  "description": "requirejs 模块打包",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-static": "^2.0.0",
+    "requirejs": "^2.2.0",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rongjihuang/try-fetch.git"
+  },
+  "author": "dragon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rongjihuang/try-fetch/issues"
+  },
+  "homepage": "https://github.com/rongjihuang/try-fetch#readme"
+}
